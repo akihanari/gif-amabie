@@ -7,3 +7,10 @@ img.snsicon {
   width: 24px;
   height: 24px;
 }
+
+.container {
+  display: flex;
+}
+.container img{
+  margin: 5px;
+}

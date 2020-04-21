@@ -6,6 +6,17 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+  <!-- Google Anatics -->
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-148744994-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-148744994-2');
+</script>
+
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="stylesheet.css">
@@ -16,6 +27,13 @@
 <meta name="msapplication-TileColor" content="#00bfff">
 <meta name="msapplication-TileImage" content="./images/favicons/mstile-144x144.png">
 <meta name="theme-color" content="#00bfff">
+
+<meta name="twitter:card" content="summary" /> <!--①-->
+<meta name="twitter:site" content="@akihanari" /> <!--②-->
+<meta property="og:url" content="https://akihanari.github.io/gif-amabie/" /> <!--③-->
+<meta property="og:title" content="GIF-AMABIE" /> <!--④-->
+<meta property="og:description" content="Slackなどに使えるアマビエのフリーなGIFを配布するサイトです" /> <!--⑤-->
+<meta property="og:image" content="images/twittercard.png" /> <!--⑥-->
 <!--
 <meta name="msapplication-square70x70logo" content="./images/favicons/site-tile-70x70.png">
 <meta name="msapplication-square150x150logo" content="./images/favicons/site-tile-150x150.png">
@@ -32,46 +50,76 @@
 <link rel="icon" type="image/png" sizes="192x192" href="./images/favicons/android-chrome-192x192.png">
 <link rel="manifest" href="./images/favicons/manifest.json">
   <title>gif-amabie</title>
+
 </head>
 
 <body>
   <div class="jumbotron">
-    <h1>AMABIE-GIF</h1>
+    <h1>GIF-AMABIE</h1>
     <hr>
     <h2>アマビエとは</h2>
     <p class="lead">日本の妖怪。半人半魚の姿をしている。アマビエの絵を描くと疫病退散のご利益があるらしい...
       <a href="https://ja.wikipedia.org/wiki/%E3%82%A2%E3%83%9E%E3%83%93%E3%82%A8" target="_blank">Wikipedia</a>
     </p>
     <hr>
-    <h2>このサイトについて</h2>
-    <p>アマビエのGIFを配布するサイトです</p>
+    <h2>ABOUT</h2>
+    <p>Slackなどに使えるアマビエのフリーなGIFを配布するサイトです</p>
 
-    <h2>GIF</h2>
-    <img class="amabie" src="images/amabie-rainbow.gif" alt="amabie-rainbow">
-    <img class="amabie" src="images/amabie-red.gif" alt="amabie-red">
-    <img class="amabie" src="images/amabie-orange.gif" alt="amabie-orange">
-    <img class="amabie" src="images/amabie-green.gif" alt="amabie-green">
-    <img class="amabie" src="images/amabie-blue.gif" alt="amabie-blue">
-    <img class="amabie" src="images/amabie-indigo.gif" alt="amabie-indigo">
-    <img class="amabie" src="images/amabie-purple.gif" alt="amabie-purple">
+    <h2>SAMPLE GIF</h2>
+    <img class="amabie" src="images/amabie/img/amabie-rainbow.gif" alt="amabie-rainbow">
+    <img class="amabie" src="images/amabie/img/amabie-red.gif" alt="amabie-red">
+    <img class="amabie" src="images/amabie/img/amabie-orange.gif" alt="amabie-orange">
+    <img class="amabie" src="images/amabie/img/amabie-green.gif" alt="amabie-green">
+    <img class="amabie" src="images/amabie/img/amabie-blue.gif" alt="amabie-blue">
+    <img class="amabie" src="images/amabie/img/amabie-indigo.gif" alt="amabie-indigo">
+    <img class="amabie" src="images/amabie/img/amabie-purple.gif" alt="amabie-purple">
     <p>※実際のサイズは128×128です。</p>
-    <h2>DEMO</h2>
+    <h2>DEMO (Slack)</h2>
     <p><img src="images/a-demo.gif" alt="slack-demo" height="100px"></p>
     <h2>規約</h2>
-    <p>Slackの絵文字など、個人的な範囲内で自由にお使いください。</p>
-    <p>※素材の再配布は禁止です</p>
+    <h4>OKなこと</h4>
+    <ul>
+      <li>Slack等の絵文字やSNSアイコンへの使用</li>
+      <li>その他個人的な範囲内での利用</li>
+    </ul>
+
+    <h4>NGなこと</h4>
+    <ul>
+      <li>素材の再配布</li>
+      <li>商用利用、加工した素材をフリマやオークションで販売すること</li>
+    </ul>
+    <p>フリーなのでダウンロードは自由です<br>※その他お問い合わせはTwitter: @akihanariまでお気軽にどうぞ！</p>
     <h2>DOWNLOAD ZIP</h2>
-    <a href="images/amabie.zip" download="images/amabie.zip"><button type="button" class="btn btn-success">ZIP</button></a>
+    <p>
+    <a href="images/amabie.zip" download="images/amabie.zip"><button type="button" class="btn btn-success">DOWNLOAD</button></a>
+    </p>
+    <h2>GOODS</h2>
+    <p>下記サイトでグッズを販売中です。リクエストも受付中です！</p>
+    <div class="container">
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//suzuri.jp/thirdparty/widgets.js";js.charset="utf-8";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","suzuri-widget-script");</script>
+  <div class="suzuri-widget-product" data-suzuri-product-id="7221482" data-suzuri-item-variant-id="1202"><a href="https://suzuri.jp/akihanari/3203250/water-glass/m/clear"><img src="https://d1q9av5b648rmv.cloudfront.net/v3/323x323/water-glass/m/clear/front/3203250/1585671479-1181x1299.png.jpg?h=ad56f14dd8ab66a4aeb15b1629c5b7e1e240d12d&amp;printed=false" width="150" height="150"></a></div>
+  <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//suzuri.jp/thirdparty/widgets.js";js.charset="utf-8";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","suzuri-widget-script");</script>
+  <div class="suzuri-widget-product" data-suzuri-product-id="7221714" data-suzuri-item-variant-id="602"><a href="https://suzuri.jp/akihanari/3203413/full-graphic-t-shirt/xl/white"><img src="https://d1q9av5b648rmv.cloudfront.net/v3/323x323/full-graphic-t-shirt/xl/white/front/3203413/1585674350-4096x3161.png.2.0589+0.0+0.0.jpg?h=86ed8a2cc6aaadaf2e2af397e2f5d0686e655a1f&amp;printed=true" width="150" height="150"></a></div>
+    <div>
+      <a href="https://akihanari.booth.pm/items/1940313"><img src="images/cap.jpg" alt="amabie-cap" width="150" height="150"></a>
+    </div>
+    </div>
+
+
+
     <hr>
 
-    <div class="card bg-light mb-3" style="max-width: 20rem;">
+    <div class="card bg-light mb-3" style="max-width: 30rem;">
       <div class="card-header">更新情報</div>
       <div class="card-body">
+        <p class="card-text">2020/04/22 規約改訂(少し細かくまとめました)/GOODSを追加</p>
         <p class="card-text">2020/03/20 サイト開設</p>
       </div>
     </div>
-    <p>作者：あきはなり
-    <a href="https://twitter.com/akihanari"><img class="snsicon" src="images/twitter.png" alt="twitter"></a>  <a href="https://akihanari.github.io/"><img class="snsicon" src="images/webpage.png" alt="github"></a></p>
+    <p>
+    <small>&copy; 2020 akihanari</small>
+    <a href="https://twitter.com/akihanari"><img class="snsicon" src="images/twitter.png" alt="twitter"></a>  <a href="https://akihanari.github.io/"><img class="snsicon" src="images/webpage.png" alt="github"></a>
+    </p>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
