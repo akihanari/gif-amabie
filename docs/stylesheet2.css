@@ -2,7 +2,7 @@
   display: flex;
 }
 
-.goodsimages {
+.goodsimages img{
   height: 200px;
   margin: 5px;
   width: 200px;
