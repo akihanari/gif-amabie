@@ -192,7 +192,12 @@ img {
   vertical-align: middle;
   border-style: none
 }
-
+@media only screen and (max-width: 767px){
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
 svg {
   overflow: hidden;
   vertical-align: middle
